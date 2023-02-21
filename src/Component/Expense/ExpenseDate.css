@@ -1,0 +1,47 @@
+.expense-date{
+    border: solid white 2px;
+    background-color: rgb(48, 45, 45);
+    border-radius: 20px;
+    margin: 10px;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-size: larger;
+}
+.expense-month{
+    padding: 5px;
+}
+.expense-year{
+    padding: 5px;
+   
+}
+.expense-day{
+    padding: 2px;
+    margin: 5px;
+    
+}
+@media screen and (min-width:375px) and (max-width:600px) {
+    .expense-date{
+        border: solid greenyellow 2px;
+        background-color: rgb(48, 45, 45);
+        border-radius: 20px;
+        margin:5px;
+        box-sizing: border-box;
+        color: white;
+        font-size: small; 
+    }
+    .expense-month{
+        border: solid greenyellow 2px;
+        padding: 2px;
+    }
+    .expense-year{
+        border: solid greenyellow 2px;
+        padding: 2px; 
+    }
+    .expense-day{
+        border: solid greenyellow 2px;
+        padding: 2px;  
+    }
+}
